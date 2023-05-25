@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image:url(./background-color.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+}

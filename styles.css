@@ -1,0 +1,549 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    background-image: url('./background-color.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    margin-top: 30px;
+}
+.navbar>.nav-item>.nav-link {
+    padding:0px 16px !important;
+}
+.nav-link {
+   color: #FFFFFF;
+   font-size: 16px; 
+   line-height: 20.16px;
+   font-style: normal;
+   font-weight: 400;
+   font-family: 'Noto Sans Buhid', sans-serif;
+}
+.navbar-nav>.nav-item.active>.nav-link.home {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.header-menu-wrapper{
+    display: flex;
+}
+.scroll-down.clock {
+    margin-top:350px;
+}
+.header-content>.heading {
+    color: #FFFFFF;
+    font-family: 'Noto Sans Buhid', sans-serif;;
+    font-size: 112px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 30px; 
+    margin-bottom: 80px; 
+}
+.fluid {
+    width:480px;
+    transform: translateY(392px);
+    margin-left: -80px;
+}
+.auction {
+    float: left;
+    line-height: 16px;
+}
+.auction h2{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 45px; */
+    letter-spacing: -0.02em;
+    color:#000000;
+    margin-top: 96px;
+}
+.auction p{
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 1px; */
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+    float: left;
+}
+.second-section{
+    margin: 0px;
+    align-items: flex-end;
+    background-color: #F4F1F1;
+}
+.first-digit>.digits {
+    font-size: 120px;
+    margin-top: 130px;
+}
+.second-digit>.digits{
+    font-size: 120px;
+    margin-top: 130px;
+}
+.third-digit>.digits {
+    font-size: 120px;
+    margin-top: 130px;
+}
+.digits{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 24px;
+    color:  rgba(0, 0, 0, 0.15);
+    text-align: left;
+    margin-top: 140px;
+}
+.time{
+    font-family: 'Sora', sans-serif;
+    font-family: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000 80%;
+    font-style: normal;
+    margin-top: 38px;
+}
+.cardbox{
+    margin-top: 80px;
+    /* background-image: linear-gradient(top to bottom,#F4F1F1); */
+    background-color: #F4F1F1;
+}
+.card-grid{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.card-grid:hover {
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
+}
+.image-grid {
+    position: relative;
+}   
+.grid-img-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 0.3s;
+}
+.grid-img-button{
+    background-color: #e3dbdb;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}
+.image-grid:hover .grid-img-button {
+    transform: translate(-50%,-50%) scale(1);
+}
+.collectible{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C2C2C6;
+    margin-top: 13px;
+}
+.para{   
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-top: 10px;
+}
+.bottom-section-content {
+    background-color: white;
+    margin-top: 100px;
+}
+.content-title {
+    text-align: center;
+}
+.content-title>h4,
+.bottompara {
+    text-align: center;
+}
+.content-title>h4 {
+    font-size: 36px;
+    margin-top: 50px;
+}
+.content-title .bottompara {
+    color: #00000080;
+}
+.search-bar {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.search-bar>.input-box {
+    width: 560px;
+    padding: 20px 20px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.search-bar button {
+    padding: 0px 50px;
+    margin-left: 10px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+}
+footer {
+    margin-top: 100px;
+    background-color: black;
+}
+.footernav {
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+.footer-wrapper {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.footernav .logo {
+    padding-right: 22px;
+}
+.footer-logo>img {
+    width: 100px;
+    height: 58px;
+}
+.poweredby {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.sponcers-section p {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.sponcers-section {
+    padding-left: 50px;
+}
+.sponcer-two {
+     padding-left: 5px;
+}
+.copyrights p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.navbar-light>.item {
+    padding-right: 20px;
+}
+.navbar {
+    margin-top: 50px;
+}
+.navbar-nav {
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .container {
+        max-width: 100%;
+    }
+    .header-content>.heading {
+        color: #FFFFFF;
+        font-family: 'Noto Sans Buhid', sans-serif;;
+        font-size: 43px;
+        font-weight: 400;
+        line-height: 120px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        margin-top: 30px; 
+        margin-bottom: -60px; 
+    }
+    .nav-link {
+        color: #FFFFFF;
+        font-size: 16px; 
+        line-height: 20.16px;
+        font-style: normal;
+        font-weight: 400;
+        font-family: 'Noto Sans Buhid', sans-serif;
+        padding: 30px;
+     }
+    .fluid {
+        width:380px;
+        transform: translateY(70px);
+        margin-left: 80px;
+    }
+  
+    .auction h2{
+        font-size: 36px;
+        line-height: 45px;
+        letter-spacing: -0.02em;
+        font-weight: 700;
+        font-family: 'Sora', sans-serif;
+        color: #000000;
+        margin-top: 110px;
+        text-align: center;
+    }
+    .auction p{
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 24px;
+        font-family: 'Sora', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 0px;
+        text-align: center;
+    }
+    .digits{
+        font-size: 100px;
+        line-height: 24px;
+        color:  rgba(0, 0, 0, 0.15);
+        font-family: 'Sora', sans-serif;
+        font-weight: 600;
+        text-align: right;
+        margin-top: 70px;
+    }
+    .time{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Sora', sans-serif;
+        text-align: center;
+        color: #000000 80%;
+        font-style: semibold;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .cardbox{
+        margin-top: 0px;
+    }
+    .numbers {
+        margin-top: 0px;
+    }
+    .content-title>h4 {
+        font-size: 29px;
+        margin-top: 50px;
+    }
+    .first-digit>.digits {
+        font-size: 120px; 
+        margin: 40px 0px;
+    }
+    .second-digit>.digits{
+        font-size: 120px; 
+        margin: 40px 0px;
+    }
+    .third-digit>.digits {
+        font-size: 120px;
+        margin: 40px 0px;
+    }
+
+}
+   
+    
+@media screen and (min-width:768px) and (max-width:991px) {
+    .container {
+        max-width: 100%;
+    }
+    .header-content>.heading {
+        color: #FFFFFF;
+        font-family: 'Noto Sans Buhid', sans-serif;;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 120px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        margin-top: 30px; 
+        margin-bottom: -60px; 
+    }
+    .nav-link {
+        color: #FFFFFF;
+        font-size: 16px; 
+        line-height: 20.16px;
+        font-style: normal;
+        font-weight: 400;
+        font-family: 'Noto Sans Buhid', sans-serif;
+        padding: 30px;
+     }
+    .fluid {
+        width:380px;
+        transform: translateY(70px);
+        margin-left: 80px;
+    }
+  
+    .auction h2{
+        font-size: 50px;
+        line-height: 45px;
+        letter-spacing: -0.02em;
+        font-weight: 700;
+        font-family: 'Sora', sans-serif;
+        color: #000000;
+        margin-top: 110px;
+        text-align: center;
+    }
+    .auction p{
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: 'Sora', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 16px;
+        text-align: center;
+    }
+    .digits{
+        font-size: 100px;
+        line-height: 50px;
+        color:  rgba(0, 0, 0, 0.15);
+        font-family: 'Sora', sans-serif;
+        font-weight: 600;
+        text-align: right;
+        margin-top: 70px;
+    }
+    .time{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Sora', sans-serif;
+        text-align: center;
+        color: #000000 80%;
+        font-style: semibold;
+        line-height: 60px;
+        margin-top: 30px;
+    }
+    .first-digit>.digits {
+        font-size: 170px;
+        margin-top: 90px;
+    }
+    .second-digit>.digits{
+        font-size: 170px;
+        margin-top: 90px;
+    }
+    .third-digit>.digits {
+        font-size: 170px;
+        margin-top: 90px;
+    }
+    .cardbox{
+        margin-top: 0px;
+    }
+    .numbers {
+        margin-top: 0px;
+    }
+    .content-title>h4 {
+        font-size: 29px;
+        margin-top: 50px;
+    }
+  
+} 
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .container {
+        max-width: 100%;
+    }
+    .header-content>.heading {
+        color: #FFFFFF;
+        font-family: 'Noto Sans Buhid', sans-serif;;
+        font-size: 51px;
+        font-weight: 800;
+        line-height: 120px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        margin-top: 30px; 
+        margin-bottom: 50px; 
+    }
+    .nav-link {
+        color: #FFFFFF;
+        font-size: 16px; 
+        line-height: 20.16px;
+        font-style: normal;
+        font-weight: 400;
+        font-family: 'Noto Sans Buhid', sans-serif;
+        padding: 30px;
+     }
+     .fluid {
+        width: 328px;
+        transform: translateY(388px);
+        margin-left: -50px;
+    }
+  
+    .auction h2{
+        font-size: 40px;
+        line-height: 10px;
+        letter-spacing: -0.02em;
+        font-weight: 700;
+        font-family: 'Sora', sans-serif;
+        color: #000000;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .auction p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 10px;
+        font-family: 'Sora', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 16px;
+        text-align: center;
+    }
+    .numbers {
+        float: right;
+    }
+    .digits{
+        font-size: 80px;
+        line-height: 30px;
+        color:  rgba(0, 0, 0, 0.15);
+        font-family: 'Sora', sans-serif;
+        font-weight: 600;
+        text-align: right;
+        margin-top: 70px;
+    }
+    .time{
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Sora', sans-serif;
+        text-align: center;
+        color: #000000 80%;
+        font-style: semibold;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .first-digit>.digits {
+        font-size: 80px;
+        margin-top: 80px;
+    }
+    .second-digit>.digits{
+        font-size: 80px;
+        margin-top: 80px;
+    }
+    .third-digit>.digits {
+        font-size: 80px;
+        margin-top: 80px;
+    }
+    .cardbox{
+        margin-top: 0px;
+    }
+    .numbers {
+        margin-top: 0px;
+    }
+    .content-title>h4 {
+        font-size: 29px;
+        margin-top: 50px;
+    }
+}
